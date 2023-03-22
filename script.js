@@ -5,7 +5,7 @@ function palindrome(str){
 	var e = str.length - 1;
 
 	while(s<e){
-		if(str.charAt(s) != str.charAt(e)){
+		if(str.charAt(s).toLowerCase() != str.charAt(e).toLowerCase()){
 			return false;
 		}
 		s++;
